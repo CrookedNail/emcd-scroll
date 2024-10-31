@@ -1,0 +1,17 @@
+{
+    "source": {
+        "include": ["components/"],
+        "includePattern": ".+\\.vue$",
+        "excludePattern": "(node_modules|.git)"
+    },
+    "opts": {
+        "destination": "./docs",
+        "recurse": true
+    },
+    "plugins": ["node_modules/jsdoc-vuejs"],
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    }
+}
+  

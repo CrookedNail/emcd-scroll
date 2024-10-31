@@ -1,0 +1,29 @@
+{
+    "name": "emcd-scroll",
+    "private": true,
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "docs": "jsdoc -c jsdoc.json",
+        "docs:pedantic": "jsdoc -c jsdoc.json --pedantic"
+    },
+    "devDependencies": {
+        "@types/node": "^22.8.5",
+        "@vitejs/plugin-vue": "^5.1.4",
+        "@vue/compiler-sfc": "^3.5.12",
+        "eslint": "^9.13.0",
+        "eslint-plugin-vue": "^9.30.0",
+        "jsdoc": "^4.0.4",
+        "vite": "^5.4.10"
+    },
+    "dependencies": {
+        "jsdoc-vuejs": "^4.0.0",
+        "vue": "^3.5.12",
+        "vue-loader": "^17.3.1"
+    }
+}
